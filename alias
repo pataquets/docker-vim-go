@@ -1,0 +1,3 @@
+vim-go() {
+  docker run --rm -it -v ${PWD}:/src/ pataquets/vim-go ${*}
+}
